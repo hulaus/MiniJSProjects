@@ -16,3 +16,12 @@ console.log(laterYears);
 console.log(earlyYears);
 
 //I made myAgeInDogYears as a const because the formula will not be chaning it will always be ealryYears + laterYears
+
+const myAgeInDogYears = earlyYears + laterYears;
+
+const myName = "Joseph"
+console.log(myName.toLowerCase());
+
+// I wrote this line as a string Interpolation because it is cleaner to use than a string concatenation. I the variables myName, myAge and myAgeInDogYears
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years. `);
